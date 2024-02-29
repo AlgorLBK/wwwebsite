@@ -28,21 +28,27 @@ import {
   carrent,
   jobit,
   tripguide,
-  gbclogo
+  gbclogo,
+  algormedia
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "about",
+    id: "#about",
     title: "About",
   },
   {
-    id: "work",
+    id: "#work",
     title: "Work",
   },
   {
-    id: "contact",
+    id: "#contact",
     title: "Contact",
+  },
+  {
+    id: "/public/cv.pdf",
+    title: "Download CV",
+    dwn : "cv.pdf"
   },
 ];
 
@@ -209,24 +215,24 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Algor Media",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Mobile-based application implementing basic social media functions like sign up, log in, create and view posts. Messaging still in development. Android and iOS.",
     tags: [
       {
-        name: "react",
+        name: "reactnative",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "expo",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: algormedia,
     source_code_link: "https://github.com/",
   },
   {

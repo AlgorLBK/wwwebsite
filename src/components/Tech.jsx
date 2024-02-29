@@ -20,8 +20,7 @@ const Tech = () => {
           </div>
         ))
       }
-      
-      {technologies.map((technology) => (
+      {isMounted && technologies.map((technology) => (
         <div className='w-28 h-28' key={technology.name}>
           <p style={{'textAlign':'center'}}>{technology.name}</p>
           <BallCanvas icon={technology.icon} />

@@ -36,6 +36,7 @@ import gbclogo from "./company/gbc-logo.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import algormedia from "./algormedia.png";
 
 export {
   gbclogo,
@@ -74,4 +75,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  algormedia
 };
