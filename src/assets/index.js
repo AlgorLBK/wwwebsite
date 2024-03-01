@@ -9,12 +9,7 @@ import close from "./close.svg";
 
 import angular from "./tech/angular.png";
 import aspnet from "./tech/aspnet.png";
-import bootstrap  from "./tech/bootstrap.png";
 import csharp from "./tech/csharp.png";
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
 import java from "./tech/java.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
@@ -24,8 +19,6 @@ import php from "./tech/php.png";
 import postgresql from "./tech/postgresql.png";
 import python from "./tech/python.png"
 import reactjs from "./tech/reactjs.png";
-import reactnative from "./tech/reactnative.png";
-import springboot from "./tech/springboot.png";
 import swift  from "./tech/swift.png";
 
 import meta from "./company/meta.png";
@@ -50,12 +43,7 @@ export {
   close,
   angular,
   aspnet,
-  bootstrap,
   csharp,
-  css,
-  docker,
-  git,
-  html,
   java,
   javascript,
   mongodb,
@@ -65,8 +53,6 @@ export {
   postgresql,
   python,
   reactjs,
-  reactnative,
-  springboot,
   swift,
   meta,
   shopify,
