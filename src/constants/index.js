@@ -200,7 +200,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Facial Expression Decoder",
+    name: "Expression Decoder",
     description:
       "Machine learning application using camera to detect human bodies and decode expression. Face and pose are detected with connections highlighted in different colors.",
     tags: [
