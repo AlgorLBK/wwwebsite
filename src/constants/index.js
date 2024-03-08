@@ -36,7 +36,7 @@ export const navLinks = [
     title: "Contact",
   },
   {
-    id: "/public/cv.pdf",
+    id: "/cv.pdf",
     title: "Download CV",
     dwn : "cv.pdf"
   },
