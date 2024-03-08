@@ -16,10 +16,10 @@ import {
   python,
   reactjs,
   swift,
-  jobit,
-  tripguide,
   gbclogo,
-  algormedia
+  algormedia,
+  landmark_detection,
+  hand_gesture
 } from "../assets";
 
 export const navLinks = [
@@ -44,21 +44,23 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "AI/ML Engineer",
+    icon: creator,
   },
   {
-    title: "Mobile Developer",
+    title: "Data Scientist",
     icon: mobile,
   },
+  {
+    title: "Web/Mobile Developer",
+    icon: web,
+  },
+  
   {
     title: "Database Manager",
     icon: backend,
   },
-  {
-    title: "AI/ML Engineer",
-    icon: creator,
-  },
+  
 ];
 
 const tech = [
@@ -198,46 +200,50 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Facial Expression Decoder",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Machine learning application using camera to detect human bodies and decode expression. Face and pose are detected with connections highlighted in different colors.",
     tags: [
       {
-        name: "react",
+        name: "mediapipe",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "open_cv",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "python",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: landmark_detection,
+    source_code_link: "https://github.com/AlgorLBK/human_facial_expression_decoder",
   },
   {
-    name: "Trip Guide",
+    name: "Hand Alphabet Translate",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Artificial Intelligence using google media pipe, pandas, opencv, sklearn, numpy & csv. Frame to frame analysis of the video to deduct the probability and final prediction.",
     tags: [
       {
-        name: "nextjs",
+        name: "sklearn",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "pandas",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "numpy",
         color: "pink-text-gradient",
       },
+      {
+        name: "mediapipe",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: hand_gesture,
+    source_code_link: "https://github.com/AlgorLBK/hand_sign_alphabet_translator",
   },
 ];
 
