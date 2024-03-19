@@ -19,7 +19,8 @@ import {
   gbclogo,
   algormedia,
   landmark_detection,
-  hand_gesture
+  hand_gesture,
+  text_recognition
 } from "../assets";
 
 export const navLinks = [
@@ -221,7 +222,7 @@ const projects = [
     source_code_link: "https://github.com/AlgorLBK/human_facial_expression_decoder",
   },
   {
-    name: "Hand Alphabet Translate",
+    name: "Hand Sign Translator",
     description:
       "Artificial Intelligence using google media pipe, pandas, opencv, sklearn, numpy & csv. Frame to frame analysis of the video to deduct the probability and final prediction.",
     tags: [
@@ -244,6 +245,31 @@ const projects = [
     ],
     image: hand_gesture,
     source_code_link: "https://github.com/AlgorLBK/hand_sign_alphabet_translator",
+  },
+  {
+    name: "Sentiment Analyzer",
+    description:
+      "Project using the embedded IBM Watson AI libraries, to create an application that would perform sentiment analysis on a provided text. Natural Language Processing (NLP).",
+    tags: [
+      {
+        name: "flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "IBM_Watson",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nlp",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "unittest",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: text_recognition,
+    source_code_link: "https://github.com/AlgorLBK/text_sentiment_analysis",
   },
 ];
 

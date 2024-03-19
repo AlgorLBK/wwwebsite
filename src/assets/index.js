@@ -26,6 +26,7 @@ import gbclogo from "./company/gbc-logo.png";
 import algormedia from "./algormedia.png";
 import landmark_detection from "./landmark_detection.jpg";
 import hand_gesture from "./hand_gesture.jpg"
+import text_recognition from  "./text_recognition.jpg"
 
 export {
   gbclogo,
@@ -52,5 +53,6 @@ export {
   swift,
   algormedia,
   landmark_detection,
-  hand_gesture
+  hand_gesture,
+  text_recognition
 };
