@@ -273,4 +273,37 @@ const projects = [
   },
 ];
 
-export { services, tech, technologies, experiences, testimonials, projects };
+const capproject = [
+  {
+    name: "Project Summary",
+    description:
+      "The RentHub project is a property rental management application designed to streamline the leasing process for both landlords and tenants. It includes features such as property listings, tenant applications, lease management, and a secure payment system.",
+  },
+  {
+    name: "Project Vision",
+    description:
+      "The vision of the RentHub project is to create a user-centric platform that simplifies the rental process, making it easier for property owners to manage their properties and for tenants to find and rent properties.",
+  },
+  {
+    name: "Project/Business Requirements",
+    description:
+      "The project requirements include creating a user-friendly interface for property listings, implementing a secure payment system, ensuring scalability for future growth, and providing robust backend functionality for managing leases and tenant information.",
+  },
+  {
+    name: "Project Plan",
+    description:
+      "The project plan includes defining project scope, identifying key milestones, assigning responsibilities, creating a timeline, and setting up a communication plan to ensure all stakeholders are informed and involved throughout the project.",
+  },
+  {
+    name: "Requirements Analysis and Design",
+    description:
+      "The requirements analysis and design phase involve gathering and analyzing user requirements, creating wireframes and mockups to visualize the system's interface, and designing the system architecture to meet the project's objectives.",
+  },
+  {
+    name: "System Implementation",
+    description:
+      "The RentHub application was implemented using the MERN (MongoDB, Express.js, React.js, Node.js) stack, ensuring scalability, security, and performance. Features such as property listings, tenant applications, lease management, and payment processing were implemented to provide a comprehensive solution for property rental management.",
+  },
+];
+
+export { services, tech, technologies, experiences, testimonials, projects, capproject };
