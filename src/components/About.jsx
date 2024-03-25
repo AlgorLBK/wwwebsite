@@ -48,9 +48,9 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
         style={{'textAlign':'justify'}}
       >
-        A skilled software developer in his early 20s with experience in Full Stack Development,
-        Mobile Application Development, Data Structures & Algorithms, Advanced Database Development,
-        Applied Machine Learning, DevOps and more ! Let's work together to bring your ideas to life !
+        A skilled software engineer in his early 20s with experience in Applied Machine Learning, Applied Data Science,
+        Full Stack Development - Web & Mobile, Data Structures & Algorithms, Advanced Database Development, 
+        DevOps and more ! Let's work together to bring your ideas to life !
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
