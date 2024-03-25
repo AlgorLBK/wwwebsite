@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+// import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { capproject } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -12,9 +12,9 @@ const ProjectCard = ({
   index,
   name,
   description,
-  tags,
-  image,
-  source_code_link,
+//   tags,
+//   image,
+//   source_code_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -81,7 +81,7 @@ const Capstone = () => {
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
           style={{'textAlign': 'justify'}}
         >
-          Following projects showcases key points of  my capstone project at George Brown College.
+          Following details showcase key points of  my capstone project at George Brown College.
         </motion.p>
       </div>
 
