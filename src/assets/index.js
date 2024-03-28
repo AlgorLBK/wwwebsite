@@ -26,7 +26,8 @@ import gbclogo from "./company/gbc-logo.png";
 import algormedia from "./algormedia.png";
 import landmark_detection from "./landmark_detection.jpg";
 import hand_gesture from "./hand_gesture.jpg"
-import text_recognition from  "./text_recognition.jpg"
+import text_recognition from "./text_recognition.jpg"
+import reza from  "./reza.jpeg"
 
 export {
   gbclogo,
@@ -54,5 +55,6 @@ export {
   algormedia,
   landmark_detection,
   hand_gesture,
-  text_recognition
+  text_recognition,
+  reza
 };

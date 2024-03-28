@@ -20,7 +20,8 @@ import {
   algormedia,
   landmark_detection,
   hand_gesture,
-  text_recognition
+  text_recognition,
+  reza
 } from "../assets";
 
 export const navLinks = [
@@ -38,7 +39,7 @@ export const navLinks = [
   },
   {
     id: "/cv.pdf",
-    title: "Download CV",
+    title: "Résumé",
     dwn : "cv.pdf"
   },
 ];
@@ -154,28 +155,12 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Algor proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Algor does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Algor optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+      "Something outstanding about him is his relentless pursuit of knowledge and innovation. He eagerly delved into advanced data analysis techniques, mastered intricate machine learning algorithms, and explored the realms of AI applications with unwavering determination. Algor's ability to grasp intricate concepts and apply them in practical scenarios is truly commendable.",
+    name: "Doctor Reza DIBAJ",
+    designation: "Applied Data Science & Applied Machine Learning Teacher",
+    company: "George Brown College",
+    image: reza,
+  }
 ];
 
 const projects = [
