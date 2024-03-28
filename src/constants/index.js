@@ -155,7 +155,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Something outstanding about him is his relentless pursuit of knowledge and innovation. He eagerly delved into advanced data analysis techniques, mastered intricate machine learning algorithms, and explored the realms of AI applications with unwavering determination. Algor's ability to grasp intricate concepts and apply them in practical scenarios is truly commendable.",
+      "Something outstanding about him is his relentless pursuit of knowledge and innovation. He eagerly delved into advanced data analysis techniques, mastered intricate machine learning algorithms, and determinedly explored the realms of AI applications. Algor's ability to grasp and apply complicated concepts in practical scenarios is commendable.",
     name: "Doctor Reza DIBAJ",
     designation: "Applied Data Science & Applied Machine Learning Teacher",
     company: "George Brown College",
