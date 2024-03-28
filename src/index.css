@@ -113,7 +113,25 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.footer-logo {
+    width: 22px;
+    margin-right: 10px;
+}
+.footer-text {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.footer-link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+.footer-container {
+  padding: 30px;  
+}
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

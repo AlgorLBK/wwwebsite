@@ -9,6 +9,7 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Capstone from './Capstone';
+import Socials from './Socials';
 
 
 export {
@@ -25,5 +26,6 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Socials
 };
