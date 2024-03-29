@@ -67,26 +67,26 @@ const services = [
 ];
 
 const tech = [
-  // {
-  //   name: "Angular",
-  //   icon: angular,
-  // },
-  // {
-  //   name: "Asp.NET",
-  //   icon: aspnet,
-  // },
-  // {
-  //   name: "C#",
-  //   icon: csharp,
-  // },
-  // {
-  //   name: "Java",
-  //   icon: java,
-  // },
-  // {
-  //   name: "JavaScript",
-  //   icon: javascript,
-  // },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Asp.NET",
+    icon: aspnet,
+  },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
 ]
 
 const technologies = [
