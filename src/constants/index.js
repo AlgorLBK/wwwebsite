@@ -98,26 +98,26 @@ const technologies = [
     name: "MySQL",
     icon: mysql,
   },
-  {
-    name: "NodeJS",
-    icon: nodejs,
-  },
-  {
-    name: "Php",
-    icon: php,
-  },
-  {
-    name: "PostgreSQL",
-    icon: postgresql,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
-  {
-    name: "ReactJS/Native",
-    icon: reactjs,
-  },
+  // {
+  //   name: "NodeJS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "Php",
+  //   icon: php,
+  // },
+  // {
+  //   name: "PostgreSQL",
+  //   icon: postgresql,
+  // },
+  // {
+  //   name: "Python",
+  //   icon: python,
+  // },
+  // {
+  //   name: "ReactJS/Native",
+  //   icon: reactjs,
+  // },
   // {
   //   name: "Swift",
   //   icon: swift,
