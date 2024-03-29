@@ -118,10 +118,10 @@ const technologies = [
     name: "ReactJS/Native",
     icon: reactjs,
   },
-  {
-    name: "Swift",
-    icon: swift,
-  },
+  // {
+  //   name: "Swift",
+  //   icon: swift,
+  // },
 ];
 
 const experiences = [
