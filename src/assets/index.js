@@ -27,7 +27,8 @@ import algormedia from "./algormedia.png";
 import landmark_detection from "./landmark_detection.jpg";
 import hand_gesture from "./hand_gesture.jpg"
 import text_recognition from "./text_recognition.jpg"
-import reza from  "./reza.jpeg"
+import reza from "./reza.jpeg"
+import weather from "./weather.jpg"
 
 export {
   gbclogo,
@@ -56,5 +57,6 @@ export {
   landmark_detection,
   hand_gesture,
   text_recognition,
-  reza
+  reza,
+  weather
 };

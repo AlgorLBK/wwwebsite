@@ -21,7 +21,8 @@ import {
   landmark_detection,
   hand_gesture,
   text_recognition,
-  reza
+  reza,
+  weather
 } from "../assets";
 
 export const navLinks = [
@@ -165,27 +166,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Algor Media",
-    description:
-      "Mobile-based application implementing basic social media functions like sign up, log in, create and view posts. Messaging still in development. Android and iOS.",
-    tags: [
-      {
-        name: "reactnative",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "expo",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: algormedia,
-    source_code_link: "https://github.com/",
-  },
-  {
     name: "Expression Decoder",
     description:
       "Machine learning application using camera to detect human bodies and decode expression. Face and pose are detected with connections highlighted in different colors.",
@@ -195,7 +175,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "open_cv",
+        name: "opencv",
         color: "green-text-gradient",
       },
       {
@@ -241,7 +221,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "IBM_Watson",
+        name: "ibmwatson",
         color: "green-text-gradient",
       },
       {
@@ -255,6 +235,48 @@ const projects = [
     ],
     image: text_recognition,
     source_code_link: "https://github.com/AlgorLBK/text_sentiment_analysis",
+  },
+  {
+    name: "Weather Predictor",
+    description:
+      "Machine Learning application using Neural Prophet to forecast weather conditions for the next 1200 days (Toronto). Using a Kaggle dataset : Canada weather from 1940 to 2009.",
+    tags: [
+      {
+        name: "neuralProphet",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "kaggle",
+        color: "green-text-gradient",
+      },
+      {
+        name: "pandas",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: weather,
+    source_code_link: "https://github.com/AlgorLBK/WeatherPredictorTor",
+  },
+  {
+    name: "Algor Media",
+    description:
+      "Mobile-based application implementing basic social media functions like sign up, log in, create and view posts. Messaging still in development. Android and iOS.",
+    tags: [
+      {
+        name: "reactnative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: algormedia,
+    source_code_link: "https://github.com/",
   },
 ];
 
