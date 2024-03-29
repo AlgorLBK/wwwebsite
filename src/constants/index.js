@@ -67,37 +67,37 @@ const services = [
 ];
 
 const tech = [
-  {
-    name: "Angular",
-    icon: angular,
-  },
-  {
-    name: "Asp.NET",
-    icon: aspnet,
-  },
-  {
-    name: "C#",
-    icon: csharp,
-  },
-  {
-    name: "Java",
-    icon: java,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+  // {
+  //   name: "Angular",
+  //   icon: angular,
+  // },
+  // {
+  //   name: "Asp.NET",
+  //   icon: aspnet,
+  // },
+  // {
+  //   name: "C#",
+  //   icon: csharp,
+  // },
+  // {
+  //   name: "Java",
+  //   icon: java,
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
 ]
 
 const technologies = [
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "MySQL",
-    icon: mysql,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "MySQL",
+  //   icon: mysql,
+  // },
   // {
   //   name: "NodeJS",
   //   icon: nodejs,
