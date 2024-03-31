@@ -22,7 +22,10 @@ import {
   hand_gesture,
   text_recognition,
   reza,
-  weather
+  weather,
+  smp1,
+  smp2,
+  smp3
 } from "../assets";
 
 export const navLinks = [
@@ -257,27 +260,27 @@ const projects = [
     image: weather,
     source_code_link: "https://github.com/AlgorLBK/WeatherPredictorTor",
   },
-  // {
-  //   name: "Algor Media",
-  //   description:
-  //     "Mobile-based application implementing basic social media functions like sign up, log in, create and view posts. Messaging still in development. Android and iOS.",
-  //   tags: [
-  //     {
-  //       name: "reactnative",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "firebase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "expo",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: algormedia,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Algor Media",
+    description:
+      "Mobile-based application implementing basic social media functions like sign up, log in, create and view posts. Messaging still in development. Android and iOS.",
+    tags: [
+      {
+        name: "reactnative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: algormedia,
+    source_code_link: "https://github.com/",
+  },
 ];
 
 const capproject = [
@@ -313,4 +316,16 @@ const capproject = [
   },
 ];
 
-export { services, tech, technologies, experiences, testimonials, projects, capproject };
+const cappsamples = [
+    {
+    image: smp1
+  },
+  {
+    image: smp2
+  },
+  {
+    image: smp3
+    },
+]
+
+export { services, tech, technologies, experiences, testimonials, projects, capproject, cappsamples };

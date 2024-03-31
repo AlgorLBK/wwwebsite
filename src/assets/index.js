@@ -30,6 +30,10 @@ import text_recognition from "./text_recognition.jpg"
 import reza from "./reza.jpeg"
 import weather from "./weather.jpg"
 
+import smp1 from "./smp1.png";
+import smp2 from "./smp2.png";
+import smp3 from "./smp3.png";
+
 export {
   gbclogo,
   logo,
@@ -58,5 +62,8 @@ export {
   hand_gesture,
   text_recognition,
   reza,
-  weather
+  weather,
+  smp1,
+  smp2,
+  smp3
 };
