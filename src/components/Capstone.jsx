@@ -17,7 +17,9 @@ const ProjectCard = ({
 //   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      // variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+    >
       <div
         options={{
           max: 45,
@@ -127,7 +129,9 @@ const SampleCard = ({
 const Capstone = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div
+        // variants={textVariant()}
+      >
         {/* <p className={`${styles.sectionSubText} `}>My work</p> */}
         <h2 className={`${styles.sectionHeadText}`}>Capstone Project.</h2>
       </motion.div>
