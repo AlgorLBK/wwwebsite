@@ -105,14 +105,14 @@ const technologies = [
     name: "NodeJS",
     icon: nodejs,
   },
-  {
-    name: "Php",
-    icon: php,
-  },
-  {
-    name: "PostgreSQL",
-    icon: postgresql,
-  },
+  // {
+  //   name: "Php",
+  //   icon: php,
+  // },
+  // {
+  //   name: "PostgreSQL",
+  //   icon: postgresql,
+  // },
   {
     name: "Python",
     icon: python,
