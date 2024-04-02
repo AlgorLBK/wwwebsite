@@ -145,7 +145,7 @@ const Capstone = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
         {cappsamples.map((project, index) => (
-          <SampleCard key={`project-${index}`} index={index} {...project} />
+          <SampleCard key={`project-${index}`} index={6+index} {...project} />
         ))}
       </div>
     </>

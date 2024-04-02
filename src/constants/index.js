@@ -317,15 +317,15 @@ const capproject = [
 ];
 
 const cappsamples = [
-    {
-    image: smp1
-  },
   {
     image: smp2
   },
   {
     image: smp3
-    },
+  },
+  {
+    image: smp1
+  },
 ]
 
 export { services, tech, technologies, experiences, testimonials, projects, capproject, cappsamples };

@@ -22,8 +22,8 @@ const FeedbackCard = ({
     <p className='text-white font-black text-[48px]'>"</p>
 
     <div className='mt-1' >
-      <p className='text-white tracking-wider text-[18px]' style={{'textAlign': 'justify'}}>{testimonial}</p>
-
+      <p className='text-white tracking-wider text-[18px]' style={{'textAlign': 'justify'}}>{testimonial} <a className='blue-text-gradient' href="Doctor Reza Dibaj Testimony.pdf" download="Doctor Reza Dibaj Testimony.pdf">Full Testimony Here</a></p>
+      
       <div className='mt-7 flex justify-between items-center gap-1'>
         <div className='flex-1 flex flex-col'>
           <p className='text-white font-medium text-[16px]'>
@@ -59,6 +59,7 @@ const Feedbacks = () => {
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
+        
       </div>
     </div>
   );
