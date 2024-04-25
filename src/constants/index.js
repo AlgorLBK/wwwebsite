@@ -3,19 +3,7 @@ import {
   backend,
   creator,
   web,
-  angular,
-  aspnet,
-  csharp,
-  java,
-  javascript,
-  mongodb,
-  mysql,
-  nodejs,
-  php,
-  postgresql,
   python,
-  reactjs,
-  swift,
   gbclogo,
   algormedia,
   landmark_detection,
@@ -25,7 +13,16 @@ import {
   weather,
   smp1,
   smp2,
-  smp3
+  smp3,
+  numpy,
+  pandas,
+  scikit,
+  matplotlib,
+  flask,
+  hadoop,
+  sql,
+  tensorflow,
+  tableau
 } from "../assets";
 
 export const navLinks = [
@@ -71,60 +68,48 @@ const services = [
 
 const tech = [
   {
-    name: "Angular",
-    icon: angular,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "Asp.NET",
-    icon: aspnet,
+    name: "Numpy",
+    icon: numpy,
   },
   {
-    name: "C#",
-    icon: csharp,
+    name: "Pandas",
+    icon: pandas,
   },
   {
-    name: "Java",
-    icon: java,
+    name: "Scikit",
+    icon: scikit,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Matplotlib",
+    icon: matplotlib,
   },
 ]
 
 const technologies = [
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Flask",
+    icon: flask,
   },
   {
-    name: "MySQL",
-    icon: mysql,
+    name: "Hadoop",
+    icon: hadoop,
   },
   {
-    name: "NodeJS",
-    icon: nodejs,
-  },
-  // {
-  //   name: "Php",
-  //   icon: php,
-  // },
-  // {
-  //   name: "PostgreSQL",
-  //   icon: postgresql,
-  // },
-  {
-    name: "Python",
-    icon: python,
+    name: "Tensorflow",
+    icon: tensorflow,
   },
   {
-    name: "ReactJS/Native",
-    icon: reactjs,
+    name: "Tableau",
+    icon: tableau,
   },
-  // {
-  //   name: "Swift",
-  //   icon: swift,
-  // },
+  {
+    name: "SQL",
+    icon: sql,
+  },
 ];
 
 const experiences = [

@@ -7,20 +7,16 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import angular from "./tech/angular.png";
-import aspnet from "./tech/aspnet.png";
-import csharp from "./tech/csharp.png";
-import java from "./tech/java.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import mysql from "./tech/mysql.png";
-import nodejs from "./tech/nodejs.png";
-import php from "./tech/php.png";
-import postgresql from "./tech/postgresql.png";
-import python from "./tech/python.png"
-import reactjs from "./tech/reactjs.png";
-import swift  from "./tech/swift.png";
-
+import flask from "./tech/flask.png";
+import hadoop from "./tech/hadoop.png";
+import matplotlib from "./tech/matplotlib.png";
+import numpy from "./tech/numpy.png";
+import pandas from "./tech/pandas.png";
+import python from "./tech/python.png";
+import scikit from "./tech/scikit.png";
+import sql from "./tech/sql.png";
+import tableau from "./tech/tableau.png";
+import tensorflow from "./tech/tensorflow.png";
 
 import gbclogo from "./company/gbc-logo.png";
 import algormedia from "./algormedia.png";
@@ -44,19 +40,16 @@ export {
   github,
   menu,
   close,
-  angular,
-  aspnet,
-  csharp,
-  java,
-  javascript,
-  mongodb,
-  mysql,
-  nodejs,
-  php,
-  postgresql,
+  flask,
+  hadoop,
+  matplotlib,
+  numpy,
+  pandas,
   python,
-  reactjs,
-  swift,
+  scikit,
+  sql,
+  tableau,
+  tensorflow,
   algormedia,
   landmark_detection,
   hand_gesture,
