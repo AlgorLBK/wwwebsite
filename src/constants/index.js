@@ -80,7 +80,7 @@ const tech = [
     icon: pandas,
   },
   {
-    name: "Scikit",
+    name: "Scikit-learn",
     icon: scikit,
   },
   {
