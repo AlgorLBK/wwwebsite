@@ -248,7 +248,7 @@ const projects = [
   {
     name: "Algor Media",
     description:
-      "Mobile-based application implementing basic social media functions like sign up, log in, create and view posts. Messaging still in development. Android and iOS.",
+      "Mobile-based application implementing social media functions like sign up, log in, create and view posts. Messaging also developed. Android and iOS.",
     tags: [
       {
         name: "reactnative",
