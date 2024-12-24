@@ -19,6 +19,7 @@ import tableau from "./tech/tableau.png";
 import tensorflow from "./tech/tensorflow.png";
 
 import gbclogo from "./company/gbc-logo.png";
+import apple from "./company/apple.png";
 import algormedia from "./algormedia.png";
 import landmark_detection from "./landmark_detection.jpg";
 import hand_gesture from "./hand_gesture.jpg"
@@ -32,6 +33,7 @@ import smp3 from "./smp3.png";
 
 export {
   gbclogo,
+  apple,
   logo,
   backend,
   creator,

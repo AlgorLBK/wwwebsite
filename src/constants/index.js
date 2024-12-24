@@ -5,6 +5,7 @@ import {
   web,
   python,
   gbclogo,
+  apple,
   algormedia,
   landmark_detection,
   hand_gesture,
@@ -39,9 +40,9 @@ export const navLinks = [
     title: "Contact",
   },
   {
-    id: "/cv.pdf",
+    id: "/ALGOR LOMBAKO.pdf",
     title: "Résumé",
-    dwn : "cv.pdf"
+    dwn : "ALGOR LOMBAKO.pdf"
   },
 ];
 
@@ -114,29 +115,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Teacher Assistant",
+    title: "Teacher Assistant - Tutor",
     company_name: "George Brown College",
     icon: gbclogo,
     iconBg: "#E6DEDD",
-    date: "Sep 2023 - Present",
+    date: "Sep 2023 - April 2024",
     points: [
       "Courses : Introduction To Web Development / Introduction to Full Stack Programming.",
       "Conducting lab sessions where students can practice coding exercises, debug their code, and ask questions in a more interactive environment.",
       "Assisting students with technical issues related to programming tools, development environments, or specific programming languages.",
       "Supporting the instructor during lectures by explaining concepts, assisting with demonstrations, or answering students' questions.",
+      "Leading smaller group discussions or tutorials to reinforce key concepts covered in lectures and help students with problem-solving.",
     ],
   },
   {
-    title: "Tutor",
-    company_name: "George Brown College",
-    icon: gbclogo,
+    title: "Bilingual Technical Advisor II",
+    company_name: "Apple",
+    icon: apple,
     iconBg: "#E6DEDD",
-    date: "Sep 2023 - Present",
+    date: "May 2024 - Present",
     points: [
-      "Conducting regular office hours to provide additional help and clarification to students who may be struggling with the course material.",
-      "Developing additional learning resources, such as code examples, tutorials, or documentation, to supplement course materials.",
-      "Leading smaller group discussions or tutorials to reinforce key concepts covered in lectures and help students with problem-solving.",
-      "Offering encouragement and motivation to students, especially those facing challenges in learning programming concepts.",
+      "Assisting customers with complex technical issues related to Apple products and services, ensuring timely and effective resolutions.",
+      "Interacting with customers in their preferred language, delivering clear and concise guidance to enhance their experience.",
+      "Diagnosing and troubleshooting hardware and software problems, utilizing advanced technical knowledge to identify solutions.",
+      "Maintaining detailed records of customer interactions and technical issues to contribute to knowledge bases and improve service quality.",
+      "Working closely with cross-functional teams, including engineering and product development, to address recurring technical challenges and improve product performance.",
     ],
   },
 ];
